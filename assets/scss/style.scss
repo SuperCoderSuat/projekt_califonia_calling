@@ -1,0 +1,122 @@
+// import stuff
+@use "./mixin.scss" as fnt;
+
+// fonts
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("../font/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../font/Inter-Bold.ttf");
+}
+
+// variablen
+$prim-cl: #000;
+$sec-cl: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "WorkSans-Regular", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    color: $sec-cl;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header_wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: $prim-cl;
+}
+
+header {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 6.8125rem;
+
+
+    .headline_wrapper {
+        width: 50%;
+        // background-color: red;
+        text-align: center;
+        padding: 42px 23px 48px 23px;
+
+        p:nth-of-type(1) {
+            padding-bottom: 17px;
+            font-size: 12px;
+        }
+
+        p:nth-of-type(2) {
+            font-size: 12px;
+        }
+
+        h1 {
+            padding-bottom: 12px;
+            font-size: 64px;
+            font-family: "Inter-Bold";
+            line-height: 52px;
+
+            span {
+                color: $prim-cl;
+                background: -webkit-linear-gradient(#000, #000);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                filter: drop-shadow(2px 1px #fff);
+            }
+        }
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $prim-cl;
+    padding-inline: 6.8125rem;
+
+    a {
+        font-size: 1rem;
+    }
+
+    a:nth-of-type(2) {
+        border: 1px solid $sec-cl;
+        padding: 14px 32px;
+        transition: .5s;
+
+        &:hover {
+            background-color: $sec-cl;
+            color: $prim-cl;
+        }
+    }
+
+}
+
+main section {
+    width: 100%;
+    height: 100vh;
+    padding: 122px 0 100px 110px;
+    background-color: $prim-cl;
+
+    article {
+        p{
+            font-size: 6rem;
+            font-weight: bold;
+        }
+    }
+}
