@@ -313,8 +313,8 @@ main {
         }
 
         .image {
-            width: 200px;
-            height: 200px;
+            width: 700px;
+            height: 700px;
             animation: spin 4s linear infinite;
             transform-origin: 50% 50%;
             // animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -330,7 +330,8 @@ main {
         }
 
         img:nth-of-type(3) {
-            right: 0;
+            right: -17%;
+            top: -50%;
         }
     }
 }

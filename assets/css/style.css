@@ -245,8 +245,8 @@ main .height411 img:nth-of-type(2) {
   z-index: 10;
 }
 main .height411 .image {
-  width: 200px;
-  height: 200px;
+  width: 700px;
+  height: 700px;
   animation: spin 4s linear infinite;
   transform-origin: 50% 50%;
 }
@@ -259,7 +259,8 @@ main .height411 .image {
   }
 }
 main .height411 img:nth-of-type(3) {
-  right: 0;
+  right: -17%;
+  top: -50%;
 }
 
 /*# sourceMappingURL=style.css.map */
