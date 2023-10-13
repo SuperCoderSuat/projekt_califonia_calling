@@ -313,8 +313,8 @@ main {
         }
 
         .image {
-            width: 700px;
-            height: 700px;
+            width: 600px;
+            height: 600px;
             animation: spin 4s linear infinite;
             transform-origin: 50% 50%;
             // animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -332,6 +332,66 @@ main {
         img:nth-of-type(3) {
             right: -17%;
             top: -50%;
+        }
+    }
+
+    section:nth-of-type(4) {
+        color: $prim-cl;
+        padding: 15px 110px 33px 110px;
+        background-color: #EEEEEE;
+        // padding-bottom: 1200px;
+        height: 150vh;
+
+        article:nth-of-type(1) {
+
+            p:nth-of-type(1) {
+                padding-bottom: 21px;
+            }
+
+            .container {
+                display: flex;
+
+                div:nth-of-type(1) {
+                    width: 50%;
+    
+                    p {
+                        font-family: "WorkSans-Regular";
+                        font-size: 1.25rem;
+                        line-height: 1.875rem;
+                        letter-spacing: -0.4px;
+                    }
+    
+                    h2 {
+                        font-family: "Inter-Bold";
+                        font-size: 5.25rem;
+                        line-height: 5.125rem;
+                    }
+                }
+    
+                div:nth-of-type(2) {
+                    width: 50%;
+    
+                    p:nth-of-type(1) {
+                        font-family: "Inter-Bold";
+                        font-size: 1.8125rem;
+                        line-height: 2.0625rem;
+                        letter-spacing: -0.40px;
+                        padding-bottom: 21px;
+                    }
+    
+                    p:nth-of-type(2) {
+                        font-family: "WorkSans-Regular";
+                        font-size: 1.125rem;
+                        line-height: 1.875rem;
+                        letter-spacing: -0.4px;
+                        padding-bottom: 21px;
+                    }
+                }
+            }
+        }
+
+        article:nth-of-type(2) {
+            
         }
     }
 }

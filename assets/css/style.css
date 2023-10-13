@@ -245,8 +245,8 @@ main .height411 img:nth-of-type(2) {
   z-index: 10;
 }
 main .height411 .image {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   animation: spin 4s linear infinite;
   transform-origin: 50% 50%;
 }
@@ -261,6 +261,49 @@ main .height411 .image {
 main .height411 img:nth-of-type(3) {
   right: -17%;
   top: -50%;
+}
+main section:nth-of-type(4) {
+  color: #000;
+  padding: 15px 110px 33px 110px;
+  background-color: #EEEEEE;
+  height: 150vh;
+}
+main section:nth-of-type(4) article:nth-of-type(1) p:nth-of-type(1) {
+  padding-bottom: 21px;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container {
+  display: flex;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(1) {
+  width: 50%;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(1) p {
+  font-family: "WorkSans-Regular";
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.4px;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(1) h2 {
+  font-family: "Inter-Bold";
+  font-size: 5.25rem;
+  line-height: 5.125rem;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(2) {
+  width: 50%;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(2) p:nth-of-type(1) {
+  font-family: "Inter-Bold";
+  font-size: 1.8125rem;
+  line-height: 2.0625rem;
+  letter-spacing: -0.4px;
+  padding-bottom: 21px;
+}
+main section:nth-of-type(4) article:nth-of-type(1) .container div:nth-of-type(2) p:nth-of-type(2) {
+  font-family: "WorkSans-Regular";
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.4px;
+  padding-bottom: 21px;
 }
 
 /*# sourceMappingURL=style.css.map */
